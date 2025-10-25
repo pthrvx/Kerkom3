@@ -155,3 +155,151 @@ header {
     width: 70%;
     margin: 0 auto;
 }
+
+/* talita */
+/* Main Content Layout */
+.hero {
+    background-color: #121212;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.intro-con {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--bg-c);
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+    position: relative;
+    box-shadow: 0 8px 20px var(--shdw-d);
+}
+
+/* Project Cards */
+.p-card {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    height: 380px;
+}
+.p-card:hover {
+    box-shadow: 0 12px 25px var(--shdw-a); 
+}
+
+.p-card.last {
+    margin-right: 0;
+}
+
+.p-head {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.p-tag {
+    display: inline-block;
+    color: #121212;
+    background-color: var(--s);
+    padding: 3px 8px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.p-desc {
+    height: 170px;
+    overflow: auto;
+    padding-right: 15px;
+    margin-bottom: 10px; 
+}
+
+.p-btn {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    margin-top: 0;
+}
+
+
+/* Team Cards */
+.t-card {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    height: 300px;
+    padding-top: 40px;
+}
+.t-card.last {
+    margin-right: 0;
+}
+
+.t-center {
+    position: relative;
+    width: 65%;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+}
+
+.t-card-s {
+    width: 47.5%; 
+    float: left;
+    margin-right: 5%; 
+    text-align: center;
+    height: 300px;
+    padding-top: 40px;
+}
+.t-card-s.last-s {
+    margin-right: 0;
+}
+
+
+.t-foto {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px auto;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.t-foto img {
+    width: 100%;
+}
+
+
+.role {
+    color: var(--p);
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Contact Section */
+.con-sec {
+    background-color: var(--bg-c);
+    padding: 50px 0;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #121212;
+    padding: 20px 0;
+    border-top: 3px solid var(--p);
+    position: relative;
+}
+
+.foot-con {
+    text-align: center;
+    position: relative; 
+}
+
+.top-link {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -15px; 
+}
